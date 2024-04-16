@@ -1,0 +1,1 @@
+export { IGTable } from './IGTable';
