@@ -22,8 +22,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/test-admin.es.js",
-      "require": "./dist/test-admin.umd.js"
+      "import": "./dist/test-admin.es.ts",
+      "require": "./dist/test-admin.umd.ts"
     },
     "./dist/style.css": "./dist/style.css"
   },
