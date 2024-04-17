@@ -17,7 +17,7 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "test-admin": ["src/resources/index.js"]
+      "test-admin": ["src/resources/index.ts"]
     }
   },
   "include": ["src"],

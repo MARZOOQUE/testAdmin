@@ -3,7 +3,7 @@ import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import { IGTable } from './IGTable';
      
 
-export const IconField = (props) => {
+export const IconField = (props: any) => {
     const record = useRecordContext(props);
     return <VisibilityOutlinedIcon onClick={() => {console.log("[DEBUG] ", record);}}></VisibilityOutlinedIcon>
 }

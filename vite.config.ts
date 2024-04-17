@@ -8,7 +8,7 @@ export default defineConfig({
     plugins: [react()],
     build: {
         lib: {
-            entry: resolve('src', 'resources/index.js'),
+            entry: resolve('src', 'resources/index.ts'),
             name: 'TestAdmin',
             formats: ['es', 'umd'],
             fileName: (format) => `test-admin.${format}.js`,
