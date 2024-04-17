@@ -11,7 +11,7 @@ export default defineConfig({
             entry: resolve('src', 'resources/index.ts'),
             name: 'TestAdmin',
             formats: ['es', 'umd'],
-            fileName: (format) => `test-admin.${format}.js`,
+            fileName: (format) => `test-admin.${format}.ts`,
         },
         rollupOptions: {
             external: [...Object.keys(packageJson.peerDependencies)],
