@@ -1,3 +1,4 @@
+import React from 'react';
 import { List, Datagrid, TextField, DateField, useRecordContext } from 'react-admin';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import { IGTable } from './IGTable';
