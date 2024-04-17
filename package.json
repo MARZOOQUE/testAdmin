@@ -27,8 +27,8 @@
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/test-admin.umd.js",
-  "module": "./dist/test-admin.es.js",
+  "main": "./dist/test-admin.umd.ts",
+  "module": "./dist/test-admin.es.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/georgepadayatti/test-admin"
